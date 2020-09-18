@@ -78,7 +78,7 @@ body {
 @media all and (min-width: 768px) and (max-width: 1024px)  {
 
 .mainPage {
-  width: 95%;
+  width: 90%;
   display: grid;
   grid-template-areas:
     "header"
@@ -120,7 +120,7 @@ body {
     "header"
     "content"
     "footer";
-  grid-template-rows: 380px auto 80px;
+  grid-template-rows: 300px auto 80px;
   grid-template-columns: none;
   /* grid-gap: 10px; */
   margin: 0 auto 0 5px;

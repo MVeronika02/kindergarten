@@ -180,7 +180,7 @@
       </div>
     </div>
     <div class="contacts_block">
-      <div id="map" class="map_block"></div>
+      <div id="map" width="350" height="350" class="map_block"></div>
       <div id="contacts" class="contacts">
         <h1 class="contacts_title">Контактные данные</h1>
         <img src="../static/img/geo.svg" class="addres_img"/>
@@ -988,35 +988,353 @@ p {
 @media all and (min-width: 360px) and (max-width: 767px) {
 
 .terms {
-  width: 80%;
+  width: 40%;
   display: flex;
-  justify-content: space-between;
-  margin: 0px 0 60px 50px;
+  justify-content: center;
+  margin: -50px 0 60px 10px;
 }
 
 .term {
-  width: 30%;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.term_img {
+  height: 130px;
 }
 
 .term_p {
   position: absolute;
-  font-size: 18px;
-  line-height: 20px;
-  margin: -180px 0 0 80px;
-  width: 172px;
+  font-size: 10px;
+  line-height: 10px;
+  margin: -90px 0 0 30px;
+  width: 70px;
   height: 80px;
 }
 
 .term_right_p {
-  width: 100px;
+  width: 70px;
   position: absolute;
-  font-size: 18px;
-  line-height: 20px;
-  margin: -195px 0 0 115px;
+  font-size: 10px;
+  line-height: 10px;
+  margin: -95px 0 0 35px;
   height: 80px;
 }
 
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 40%;
+  margin-top: -20px; 
 }
+
+.courses_title {
+  margin: -50px 0 20px -600px;
+  font-size: 20px;
+}
+
+.course {
+  width: 35%;
+  height: 230px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+}
+
+.course_img {
+  width: 260px;
+  height: 200px;
+}
+
+.courses_rus_img {
+  width: 260px;
+  height: 200px;
+}
+
+.courses_eng_p {
+  width: 200px;
+  height: 70px;
+  margin: -60px 0 0 30px;
+}
+
+.course_age {
+  margin-top: -5px;
+  font-size: 16px;
+
+}
+
+.courses_rus_p {
+  width: 200px;
+  height: 70px;
+  margin: -60px 0 0 30px;
+}
+
+.courses_kaz_p {
+  width: 200px;
+  height: 70px;
+  margin: -60px 0 0 30px;
+}
+
+.courses_logic_p {
+  width: 200px;
+  height: 90px;
+  margin: -60px 0 0 30px;
+}
+
+.courses_speech_p {
+  width: 200px;
+  height: 90px;
+  margin: -60px 0 0 30px;
+}
+
+.courses_figures_p {
+  width: 230px;
+  height: 85px;
+  padding: 5px;
+  margin: -65px 0 0 10px;
+}
+
+.courses_write_p {
+  width: 230px;
+  height: 90px;
+  margin: -65px 0 0 15px;
+}
+
+.courses_read_p {
+  width: 230px;
+  height: 90px;
+  margin: -65px 0 0 15px;
+}
+
+.courses_count_p {
+  width: 230px;
+  height: 90px;
+  margin: -75px 0 0 15px;
+}
+
+.course_title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.div_bottom {
+  width: 100%;
+  height: 100px;
+  margin: -35px 0 0 0px;
+}
+
+.info_block {
+  width: 90%;
+  display: flex;
+  height: 120px;
+  margin: 80px 0 10px 30px;
+}
+
+.info_img {
+  margin-right: 40px;
+  width: 110px;
+  height: 110px;
+}
+
+.info_img_cicle {
+  margin: 15px 0px 0 36px;
+  width: 35px;
+  height: 35px;
+}
+
+.info_p {
+  margin: 35px 0 0 30px;
+  width: 50px;
+  font-size: 16px;
+}
+
+.info_p_text {
+  margin: 55px 0 0 5px;
+  width: 100px;
+  font-size: 14px;
+}
+
+.info_img_cicle2 {
+  margin: 15px 0px 0 185px;
+  width: 35px;
+  height: 35px;
+}
+
+.info_p2 {
+  margin: 35px 0px 0 180px;
+  width: 50px;
+  font-size: 16px;
+}
+
+.info_p_text2 {
+  margin: 55px 0 0 155px;
+  width: 100px;
+  font-size: 14px;
+}
+
+.info_img_cicle3 {
+  margin: 14px 0px 0 340px;
+  width: 35px;
+  height: 30px;
+}
+
+.info_p3 {
+  margin: 30px 0px 0 330px;
+  width: 50px;
+  font-size: 16px;
+}
+
+.info_p_text3 {
+  margin: 60px 0 0 330px;
+  width: 50px;
+  height: 60px;
+  font-size: 14px;
+  line-height: 12px;
+}
+
+.request_title {
+  margin-left: 70px;
+  font-size: 28px;
+  line-height: 12px;
+}
+
+.request_block {
+  margin-left: 40px;
+}
+
+.request_form {
+  width: 400px;
+}
+
+.request_form_input {
+  width: 350px;
+  height: 30px;
+}
+
+.request_submit_btn {
+  font-size: 22px;
+  margin: 10px 0 0 80px;
+}
+
+.request_img {
+  display: none;
+}
+
+.reviews_title {
+  width: 350px;
+  font-size: 26px;
+  line-height: 12px;
+  margin: 20px  0 0px 70px;
+}
+.reviews_block {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px 0 0 5px;
+}
+
+.left_review {
+  width: 380px;
+  height: 220px;
+  background: #27cb37;
+  box-shadow: 0px 4px 16px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 31px;
+  margin-left: 40px;
+}
+
+.left_review_img {
+  position: absolute;
+  margin: -20px 0 0 -200px;
+  width: 100px;
+  height: 100px;
+}
+
+.left_review_name {
+  width: 150px;
+  height: 25px;
+  margin: 10px 0 0 150px;
+  font-size: 16px;
+  line-height: 14px;
+}
+
+.left_review_text {
+  width: 360px;
+  height: 200px;
+  margin-top: 55px;
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+}
+
+.right_review {
+  width: 380px;
+  height: 220px;
+  background: #cb2776;
+  box-shadow: 0px 4px 16px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 31px;
+  margin: 30px 0 0 40px;
+}
+
+.contacts_block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 98%;
+}
+
+.map_block {
+  width: 350px;
+  height: 120px;
+  margin: 30px 30px 0 90px;
+}
+
+.contacts {
+  margin: 50px 0 0 50px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts_title {
+  width: 380px;
+  height: 30px;
+  font-size: 26px;
+  margin: 30px 0 10px 20px;
+}
+
+.addres_img {
+  height: 30px;
+}
+
+.tel_img {
+  height: 30px;
+}
+
+.contacts_text {
+  width: 290px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: justify;
+  color: #000000;
+  margin-left: 20px;
+}
+
+.contacts_img {
+  margin: 10px 0 0 30px;
+  height: 20px;
+}
+
+.wp_img {
+  height: 20px;
+  margin-top: 10px;
+}
+
+}
+
 
 
 </style>

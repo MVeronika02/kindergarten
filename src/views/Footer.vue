@@ -71,7 +71,7 @@ export default {
 @media all and (min-width: 768px) and (max-width: 1024px)  {
 
 .footer_bar {
-  width: 90%;
+  width: 100%;
   margin-left: 0px;
 }
 
@@ -84,6 +84,31 @@ export default {
 .footer_nav {
   margin: 30px 0 0 150px;
 }
+}
+
+@media all and (min-width: 360px) and (max-width: 767px) {
+
+.footer_bar {
+  width: 100%;
+  margin-left: 0px;
+}
+
+.logo_footer {
+  width: 70px;
+  height: 100px;
+  margin: 10px 0 0 0px;
+}
+
+.footer_nav {
+  margin: 30px 0 0 30px;
+}
+
+.footer_nav_a {
+  font-size: 14px;
+  line-height: 14px;
+}
 
 }
+
+
 </style>
