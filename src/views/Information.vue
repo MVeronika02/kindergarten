@@ -1336,7 +1336,187 @@ p {
 }
 
 @media all and (min-width: 1024px) and (max-width: 1474px) {
-  
+
+.terms {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.term {
+  width: 30%;
+}
+
+.term_p {
+  margin: -190px 0 0 65px;
+}
+
+.term_right_p {
+  margin: -200px 0 0 95px;
+}
+
+.courses {
+  justify-content: space-between;
+  width: 98%;
+}
+
+.courses_eng_p {
+  margin: -60px 0 0 35px;
+}
+
+.courses_rus_p {
+  margin: -50px 0 0 35px;
+}
+
+.courses_kaz_p {
+  margin: -50px 0 0 35px;
+}
+
+.courses_logic_p {
+  margin: -45px 0 0 35px;
+}
+
+.courses_speech_p {
+  margin: -45px 0 0 35px;
+}
+
+.courses_figures_p {
+  margin: -45px 0 0 35px;
+}
+
+.courses_write_p {
+  margin: -45px 0 0 35px;
+}
+
+.courses_read_p {
+  margin: -45px 0 0 35px;
+}
+
+.courses_count_p {
+  margin: -45px 0 0 35px;
+}
+
+.div_bottom {
+  width: 98%;
+  margin: -35px 0 0 10px;
+}
+
+.info_block {
+  margin: 160px 0 50px 20px;
+}
+
+.info_img {
+  margin-right: 30px;
+  height: 300px;
+  width: 300px;
+}
+
+.info_img_cicle {
+  margin: 50px 0px 0 100px;
+}
+
+.info_p {
+  margin: 150px 0 0 110px;
+}
+
+.info_p_text {
+  margin: 190px 0 0 65px;
+}
+
+.info_img_cicle2 {
+  margin: 40px 0px 0 430px;
+}
+
+.info_p2 {
+  margin: 140px 0px 0 435px;
+}
+
+.info_p_text2 {
+  margin: 180px 0 0 395px;
+}
+
+.info_img_cicle3 {
+  margin: 50px 0px 0 760px;
+}
+
+.info_p3 {
+  margin: 150px 0px 0 765px;
+}
+
+.info_p_text3 {
+  margin: 190px 0 0 725px;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.request_title {
+  margin-left: 150px;
+}
+
+.request_block {
+  display: flex;
+  margin-left: 100px;
+}
+
+.reviews_title {
+  margin: 60px 0 0 -40px;
+}
+.reviews_block {
+  width: 90%;
+  display: flex;
+  margin: 100px 0 0 60px;
+}
+
+.left_review {
+  width: 375px;
+  height: 440px;
+  background: #27cb37;
+  box-shadow: 0px 4px 16px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 31px;
+}
+
+.left_review_img {
+  position: absolute;
+  margin: -60px 0 0 -240px;
+  width: 180px;
+  height: 180px;
+}
+
+.left_review_name {
+  width: 215px;
+  height: 70px;
+  margin-left: 120px;
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+.left_review_text {
+  width: 317px;
+  height: 330px;
+  margin-top: 40px;
+  margin-left: 30px;
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #000000;
+}
+
+.right_review {
+  width: 375px;
+  height: 440px;
+  background: #cb2776;
+  box-shadow: 0px 4px 16px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 31px;
+  margin-left: 150px;
+}
+
+
+
 }
 
 </style>
