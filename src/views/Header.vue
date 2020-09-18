@@ -193,10 +193,10 @@
 }
 
 .header_nav_btn {
-  width: 105px;
+  width: 100px;
   height: 20px;
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 10px;
+  line-height: 10px;
 }
 
 .header_info {
