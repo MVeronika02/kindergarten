@@ -14,7 +14,9 @@
     <div class="header_info">
       <p class="header_info_title">Детский садик "Kids"</p>
       <p class="header_info_p">Мы очень рады, что Вы заглянули к нам в гости и сделаем все, чтобы наше знакомство было обоюдно приятным.</p>
-      <img src="../static/img/header_img.svg" class="header_info_img"/>
+      <div class="container_header_info_img">
+          <img src="../static/img/header_img.svg" class="header_info_img"/>
+      </div>
     </div>
   </div>
 </template>
@@ -104,8 +106,17 @@
   text-align: left;
 }
 
+
+.container_header_info_img{
+  position: relative;
+  object-fit: cover;
+
+}
 .header_info_img {
   margin-top: -40px;
+     display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -214,13 +225,13 @@
 
 .header_info_p {
   margin: 25px 0 0 5px;
-  width: 45%;
+  width: 40%;
   font-size: 12px;
   line-height: 12px;
 }
 
 .header_info_img {
-  margin: 0px 0 0 -140px;
+  margin: 0px 0 0 10px;
   width: 350px;
 }
 
@@ -276,5 +287,13 @@
 
 }
 
+/* @media all and (min-width: 1475px) {
+
+.header_nav {
+  width: 80%;
+  justify-content: flex-start;
+}
+
+} */
 
 </style>

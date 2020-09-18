@@ -391,7 +391,7 @@ p {
   position: absolute;
   background-repeat: repeat-x;
   background-image: url("../static/img/bottom.png");
-  width: 1155px;
+  width: 97%;
   height: 150px;
   margin: -35px 0 0 20px;
 }
@@ -399,7 +399,7 @@ p {
 .info_block {
   display: flex;
   height: 320px;
-  margin: 180px 0 50px 80px;
+  margin: 180px 0 50px 0px;
 }
 
 .info_img {
