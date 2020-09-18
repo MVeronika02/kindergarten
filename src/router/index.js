@@ -1,8 +1,17 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import YmapPlugin from 'vue-yandex-maps'
 
-Vue.use(VueRouter)
+const settings = {
+  apiKey: '',
+  lang: 'ru_RU',
+  coordorder: 'latlong',
+  version: '2.1'
+}
+
+Vue.use(VueRouter, YmapPlugin, settings)
+
 
 const routes = [
   {

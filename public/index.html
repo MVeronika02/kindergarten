@@ -4,6 +4,29 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="jquery-1.11.1.min.js"></script>
+    
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=5e13ea0e-386f-4670-bb2c-e958d5146a79&lang=ru_RU" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      // Функция ymaps.ready() будет вызвана, когда
+      // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+      ymaps.ready(init);
+      function init(){
+          // Создание карты.
+          var myMap = new ymaps.Map("map", {
+              // Координаты центра карты.
+              // Порядок по умолчанию: «широта, долгота».
+              // Чтобы не определять координаты центра карты вручную,
+              // воспользуйтесь инструментом Определение координат.
+              center: [43.25, 76.94],
+              // Уровень масштабирования. Допустимые значения:
+              // от 0 (весь мир) до 19.
+              zoom: 17
+          });
+      }
+  </script>
+    <!-- <script src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=Ou9B29AnlSf6RNKeZk-xqFBsw7nQtEIu&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true&amp;id=my-map"></script> -->
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>

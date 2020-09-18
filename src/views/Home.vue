@@ -10,7 +10,7 @@
     <Information />
   </div>
   
-  <footer id="pageFooter">Footer</footer>
+    <Footer class="pageFooter"/>
 
 </div>
 </body>
@@ -20,6 +20,7 @@
 
 import Header from '../views/Header.vue'
 import Information from '../views/Information.vue'
+import Footer from '../views/Footer.vue'
 
 export default {
   name: 'Home',
@@ -28,7 +29,8 @@ export default {
   },
   components: {
     Header,
-    Information
+    Information,
+    Footer
   }
 }
 </script>
@@ -40,15 +42,6 @@ body {
   padding: 0px;
 }
 
-/* .main_background {
-  position:  absolute;
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  z-index: 0;
-  background: url(../assets/img/mainBackground.jpg);
-} */
-
 .mainPage {
   width: 65%;
   display: grid;
@@ -56,7 +49,7 @@ body {
     "header header header"
     "content content content"
     "footer footer footer";
-  grid-template-rows: 590px auto 300px;
+  grid-template-rows: 590px 3750px 150px;
   grid-template-columns: 15% 1fr 15%;
   grid-gap: 10px;
   margin: 0 auto;
@@ -71,32 +64,34 @@ body {
   padding: 10px 0;
 }
 
-#pageFooter {
-  grid-area: footer;
-  background: #F0E051;
-}
-
 .info {
   grid-area: content;
   padding: 0;
 }
 
-@media all and (max-width: 575px) {
-  .mainPage {
-    width: 65%;
-    display: grid;
-    grid-template-areas:
-      "header"
-      "content"
-      "footer";
-    grid-template-rows: 90px auto 80px;
-    grid-template-columns: 3fr;
-    grid-gap: 10px;
-    margin: 0 auto;
-    padding: 0px;
-    z-index: 5;
-    position: relative;
-    background: #F0E051;
+.pageFooter {
+  grid-area: footer;
+  background: #E7D747;
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px)  {
+
+.mainPage {
+  width: 95%;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  grid-template-rows: 90px auto 80px;
+  grid-template-columns: none;
+  /* grid-gap: 10px; */
+  margin: 0 auto 0 50px;
+  padding: 0px;
+  z-index: 5;
+  /* position: relative; */
+  background: #F0E051;
 }
 
 .header {
@@ -104,16 +99,38 @@ body {
   padding: 10px 0;
 }
 
-#pageFooter {
+.pageFooter {
   grid-area: footer;
-  background: #F0E051;
+  background:#E7D747;
 }
 
 .info {
   grid-area: content;
   padding: 0;
 }
+
 }
+
+@media all and (min-width: 360px) and (max-width: 767px)  {
+
+.mainPage {
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  grid-template-rows: 380px auto 80px;
+  grid-template-columns: none;
+  /* grid-gap: 10px; */
+  margin: 0 auto 0 5px;
+  padding: 0px;
+  z-index: 5;
+  /* position: relative; */
+  background: #F0E051;
+}
+}
+
 
 </style>
 
