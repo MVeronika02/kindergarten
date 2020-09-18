@@ -180,7 +180,7 @@
       </div>
     </div>
     <div class="contacts_block">
-      <div id="map" width="350" height="350" class="map_block"></div>
+      <div id="map" class="map_block"></div>
       <div id="contacts" class="contacts">
         <h1 class="contacts_title">Контактные данные</h1>
         <img src="../static/img/geo.svg" class="addres_img"/>
@@ -640,13 +640,13 @@ p {
   height: 40px;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
 
 .terms {
   width: 80%;
   display: flex;
   justify-content: center;
-  margin: 240px 0 60px 30px;
+  margin: 20px 0 60px 50px;
 }
   
 .term {
@@ -682,7 +682,7 @@ p {
 }
 
 .courses_title {
-  margin: -50px 0 20px -200px;
+  margin: -50px 0 30px -50px;
   font-size: 20px;
 }
 
@@ -706,7 +706,7 @@ p {
 .courses_eng_p {
   width: 200px;
   height: 70px;
-  margin: -60px 0 0 40px;
+  margin: -60px 0 0 30px;
 }
 
 .course_age {
@@ -718,50 +718,50 @@ p {
 .courses_rus_p {
   width: 200px;
   height: 70px;
-  margin: -60px 0 0 40px;
+  margin: -60px 0 0 30px;
 }
 
 .courses_kaz_p {
   width: 200px;
   height: 70px;
-  margin: -60px 0 0 40px;
+  margin: -60px 0 0 30px;
 }
 
 .courses_logic_p {
   width: 200px;
   height: 90px;
-  margin: -60px 0 0 40px;
+  margin: -60px 0 0 30px;
 }
 
 .courses_speech_p {
   width: 200px;
   height: 90px;
-  margin: -60px 0 0 40px;
+  margin: -60px 0 0 30px;
 }
 
 .courses_figures_p {
   width: 230px;
   height: 85px;
   padding: 5px;
-  margin: -65px 0 0 17px;
+  margin: -65px 0 0 10px;
 }
 
 .courses_write_p {
   width: 230px;
   height: 90px;
-  margin: -65px 0 0 22px;
+  margin: -65px 0 0 15px;
 }
 
 .courses_read_p {
   width: 230px;
   height: 90px;
-  margin: -65px 0 0 22px;
+  margin: -65px 0 0 15px;
 }
 
 .courses_count_p {
   width: 230px;
   height: 90px;
-  margin: -75px 0 0 22px;
+  margin: -75px 0 0 15px;
 }
 
 .course_title {
@@ -988,10 +988,10 @@ p {
 @media all and (min-width: 360px) and (max-width: 767px) {
 
 .terms {
-  width: 40%;
+  width: 60%;
   display: flex;
   justify-content: center;
-  margin: -50px 0 60px 10px;
+  margin: -50px 0 40px 10px;
 }
 
 .term {
@@ -1030,14 +1030,14 @@ p {
 }
 
 .courses_title {
-  margin: -50px 0 20px -600px;
+  margin: -50px 0 20px -150px;
   font-size: 20px;
 }
 
 .course {
   width: 35%;
   height: 230px;
-  margin-right: 80px;
+  margin-right: 50px;
   margin-bottom: 20px;
 }
 
@@ -1125,14 +1125,14 @@ p {
 }
 
 .info_block {
-  width: 90%;
+  width: 70%;
   display: flex;
   height: 120px;
-  margin: 80px 0 10px 30px;
+  margin: 80px 0 10px 5px;
 }
 
 .info_img {
-  margin-right: 40px;
+  margin-right: 10px;
   width: 110px;
   height: 110px;
 }
@@ -1156,37 +1156,37 @@ p {
 }
 
 .info_img_cicle2 {
-  margin: 15px 0px 0 185px;
+  margin: 15px 0px 0 155px;
   width: 35px;
   height: 35px;
 }
 
 .info_p2 {
-  margin: 35px 0px 0 180px;
+  margin: 35px 0px 0 150px;
   width: 50px;
   font-size: 16px;
 }
 
 .info_p_text2 {
-  margin: 55px 0 0 155px;
+  margin: 55px 0 0 125px;
   width: 100px;
   font-size: 14px;
 }
 
 .info_img_cicle3 {
-  margin: 14px 0px 0 340px;
+  margin: 14px 0px 0 280px;
   width: 35px;
   height: 30px;
 }
 
 .info_p3 {
-  margin: 30px 0px 0 330px;
+  margin: 30px 0px 0 270px;
   width: 50px;
   font-size: 16px;
 }
 
 .info_p_text3 {
-  margin: 60px 0 0 330px;
+  margin: 60px 0 0 265px;
   width: 50px;
   height: 60px;
   font-size: 14px;
@@ -1194,27 +1194,27 @@ p {
 }
 
 .request_title {
-  margin-left: 70px;
+  margin-left: 10px;
   font-size: 28px;
   line-height: 12px;
 }
 
 .request_block {
-  margin-left: 40px;
+  margin-left: 15px;
 }
 
 .request_form {
-  width: 400px;
+  width: 300px;
 }
 
 .request_form_input {
-  width: 350px;
+  width: 300px;
   height: 30px;
 }
 
 .request_submit_btn {
   font-size: 22px;
-  margin: 10px 0 0 80px;
+  margin: 5px 0 0 60px;
 }
 
 .request_img {
@@ -1225,7 +1225,7 @@ p {
   width: 350px;
   font-size: 26px;
   line-height: 12px;
-  margin: 20px  0 0px 70px;
+  margin: 20px  0 0px 0px;
 }
 .reviews_block {
   width: 90%;
@@ -1235,17 +1235,17 @@ p {
 }
 
 .left_review {
-  width: 380px;
+  width: 340px;
   height: 220px;
   background: #27cb37;
   box-shadow: 0px 4px 16px 7px rgba(0, 0, 0, 0.25);
   border-radius: 31px;
-  margin-left: 40px;
+  margin-top: 50px;
 }
 
 .left_review_img {
   position: absolute;
-  margin: -20px 0 0 -200px;
+  margin: -40px 0 0 -170px;
   width: 100px;
   height: 100px;
 }
@@ -1259,22 +1259,22 @@ p {
 }
 
 .left_review_text {
-  width: 360px;
+  width: 300px;
   height: 200px;
-  margin-top: 55px;
-  margin-left: 10px;
+  margin-top: 30px;
+  margin-left: 15px;
   font-size: 12px;
   line-height: 14px;
   text-align: justify;
 }
 
 .right_review {
-  width: 380px;
+  width: 340px;
   height: 220px;
   background: #cb2776;
   box-shadow: 0px 4px 16px 7px rgba(0, 0, 0, 0.25);
   border-radius: 31px;
-  margin: 30px 0 0 40px;
+  margin: 50px 0 0 0px;
 }
 
 .contacts_block {
@@ -1284,13 +1284,13 @@ p {
 }
 
 .map_block {
-  width: 350px;
-  height: 120px;
-  margin: 30px 30px 0 90px;
+  width: 330px !important;
+  height: 170px !important;
+  margin: 30px 30px 0 10px;
 }
 
 .contacts {
-  margin: 50px 0 0 50px;
+  margin: 10px 0 0 20px;
   width: 350px;
   display: flex;
   flex-wrap: wrap;
@@ -1302,7 +1302,7 @@ p {
   width: 380px;
   height: 30px;
   font-size: 26px;
-  margin: 30px 0 10px 20px;
+  margin: 0px 0 10px 20px;
 }
 
 .addres_img {
@@ -1324,7 +1324,7 @@ p {
 }
 
 .contacts_img {
-  margin: 10px 0 0 30px;
+  margin: 10px 0 0 20px;
   height: 20px;
 }
 
@@ -1335,7 +1335,9 @@ p {
 
 }
 
-
+@media all and (min-width: 1024px) and (max-width: 1474px) {
+  
+}
 
 </style>
 

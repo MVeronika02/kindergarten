@@ -68,7 +68,7 @@ export default {
   height: 20px;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px)  {
+@media all and (min-width: 768px) and (max-width: 1023px)  {
 
 .footer_bar {
   width: 100%;
@@ -89,7 +89,7 @@ export default {
 @media all and (min-width: 360px) and (max-width: 767px) {
 
 .footer_bar {
-  width: 100%;
+  width: 72%;
   margin-left: 0px;
 }
 
@@ -100,7 +100,8 @@ export default {
 }
 
 .footer_nav {
-  margin: 30px 0 0 30px;
+  margin: 30px 0 0 10px;
+  width: 60%;
 }
 
 .footer_nav_a {
@@ -108,7 +109,43 @@ export default {
   line-height: 14px;
 }
 
+.footer_line {
+  height: 14px;
 }
 
+}
+
+@media all and (min-width: 1024px) and (max-width: 1474px) {
+
+.footer_bar {
+  display: flex;
+}
+
+.logo_footer {
+  width: 90px;
+  height: 130px;
+  margin: 20px 0 0 85px;
+}
+
+.footer_nav {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  margin: 60px 0 0 280px;
+  
+}
+
+.footer_nav_a {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.footer_line {
+  height: 20px;
+}
+}
 
 </style>

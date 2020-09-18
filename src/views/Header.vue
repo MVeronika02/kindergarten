@@ -6,7 +6,7 @@
     </div>
     <div class="header_nav">
       <a id="a_main" class="header_nav_a">Главная</a>
-      <a class="header_nav_a">О проекте</a>
+      <a href="#about" class="header_nav_a">О проекте</a>
       <a href="#contacts" class="header_nav_a">Контакты</a>
       <button class="header_nav_btn">Заказать звонок</button>
       <a class="header_nav_a">+77477011414</a>
@@ -108,7 +108,7 @@
   margin-top: -40px;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 
 .logo {
   margin: 0px 10px;
@@ -125,8 +125,8 @@
 }
 
 .header_nav {
-  margin-left: 220px;
-  width: 58%;
+  margin-left: 180px;
+  width: 65%;
 }
 
 .header_nav_btn {
@@ -138,7 +138,7 @@
 
 .header_info {
   width: 90%;
-  height: 440px;
+  height: 240px;
   margin: 60px 0 0 20px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -155,8 +155,8 @@
 }
 
 .header_info_img {
-  margin: -50px 0 0 -60px;
-  width: 700px;
+  margin: -50px 0 0 0px;
+  width: 730px;
 }
 
 }
@@ -173,17 +173,19 @@
 }
 
 .logo_p {
-  font-size: 16px;
+  font-size: 14px;
   margin-top: -10px;
 }
 
 .header_nav {
-  margin-left: 90px;
-  width: 30%;
+  margin-left: 60px;
+  width: 70%;
+  justify-content: flex-start;
 }
 
 .header_nav_a {
   font-size: 10px;
+  margin-right: 15px;
 }
 
 #a_main {
@@ -191,38 +193,88 @@
 }
 
 .header_nav_btn {
-  width: 110px;
+  width: 105px;
   height: 20px;
   font-size: 12px;
   line-height: 12px;
 }
 
 .header_info {
-  width: 90%;
-  height: 200px;
-  margin: 20px 0 0 10px;
+  width: 100%;
+  height: 150px;
+  margin: 10px 0 0 10px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .header_info_title {
-  margin-top: -10px;
-  font-size: 22px;
-  line-height: 16px;
+  margin: 5px;
+  font-size: 20px;
+  line-height: 14px;
 }
 
 .header_info_p {
-  margin: 20px 0 0 40px;
-  width: 25%;
-  font-size: 14px;
+  margin: 25px 0 0 5px;
+  width: 45%;
+  font-size: 12px;
+  line-height: 12px;
 }
 
 .header_info_img {
-  margin: 0px 0 0 -550px;
-  width: 440px;
+  margin: 0px 0 0 -140px;
+  width: 350px;
 }
 
 }
 
+
+@media all and (min-width: 1024px) and (max-width: 1474px) {
+.logo {
+  position: absolute;
+  width: 10%;
+  margin: 0px 1 0px;
+}
+
+
+.header_nav {
+  margin-left: 430px;
+}
+
+.header_info {
+  width: 96%;
+  height: 400px;
+  margin: 80px 0 0 50px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.header_info_title {
+  position:absolute;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000000;
+  margin: 15px 0 0 40px;
+}
+
+.header_info_p {
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  width: 30%;
+  height: 66px;
+  margin: 105px 0 0 40px;
+  text-align: left;
+}
+
+.header_info_img {
+  margin: -10px 0 0 -30px;
+  width: 980px;
+}
+
+}
 
 
 </style>
