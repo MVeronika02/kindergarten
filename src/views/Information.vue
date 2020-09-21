@@ -640,7 +640,7 @@ p {
   height: 40px;
 }
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 768px) and (max-width: 1024px) {
 
 .terms {
   width: 80%;
@@ -1338,8 +1338,7 @@ p {
 @media all and (min-width: 1024px) and (max-width: 1474px) {
 
 .terms {
-  margin-left: 40px;
-  margin-bottom: 40px;
+  margin: 20px 0 40px 60px;
 }
 
 .term {
@@ -1347,52 +1346,57 @@ p {
 }
 
 .term_p {
-  margin: -190px 0 0 65px;
+  margin: -125px 0 0 40px;
 }
 
 .term_right_p {
-  margin: -200px 0 0 95px;
+  margin: -130px 0 0 40px;
 }
 
 .courses {
-  justify-content: space-between;
+  justify-content: center;
+  /* align-content: space-between; */
   width: 98%;
 }
 
+.course {
+  margin-bottom: 40px;
+}
+
 .courses_eng_p {
-  margin: -60px 0 0 35px;
+  margin: -40px 0 0 70px;
 }
 
 .courses_rus_p {
-  margin: -50px 0 0 35px;
+  margin: -50px 0 0 70px;
 }
 
 .courses_kaz_p {
-  margin: -50px 0 0 35px;
+  margin: -50px 0 0 70px;
 }
 
 .courses_logic_p {
-  margin: -45px 0 0 35px;
+  margin: -45px 0 0 70px;
 }
 
 .courses_speech_p {
-  margin: -45px 0 0 35px;
+  margin: -45px 0 0 70px;
 }
 
 .courses_figures_p {
-  margin: -45px 0 0 35px;
+  margin: -45px 0 0 50px;
 }
 
 .courses_write_p {
-  margin: -45px 0 0 35px;
+  margin: -45px 0 0 55px;
 }
 
 .courses_read_p {
-  margin: -45px 0 0 35px;
+  margin: -45px 0 0 55px;
 }
 
 .courses_count_p {
-  margin: -45px 0 0 35px;
+  margin: -45px 0 0 55px;
 }
 
 .div_bottom {
@@ -1401,55 +1405,64 @@ p {
 }
 
 .info_block {
-  margin: 160px 0 50px 20px;
+  margin: 120px 0 10px 20px;
+  height: 250px;
 }
 
 .info_img {
   margin-right: 30px;
-  height: 300px;
+  height: 250px;
   width: 300px;
 }
 
 .info_img_cicle {
-  margin: 50px 0px 0 100px;
+  margin: 40px 0px 0 120px;
 }
 
 .info_p {
-  margin: 150px 0 0 110px;
+  margin: 110px 0 0 115px;
+  font-size: 30px;
 }
 
 .info_p_text {
-  margin: 190px 0 0 65px;
+  margin: 150px 0 0 75px;
+  font-size: 26px;
 }
 
 .info_img_cicle2 {
-  margin: 40px 0px 0 430px;
+  margin: 30px 0px 0 450px;
 }
 
 .info_p2 {
-  margin: 140px 0px 0 435px;
+  margin: 100px 0px 0 445px;
+  font-size: 30px;
 }
 
 .info_p_text2 {
-  margin: 180px 0 0 395px;
+  margin: 140px 0 0 420px;
+  font-size: 26px;
 }
 
 .info_img_cicle3 {
-  margin: 50px 0px 0 760px;
+  margin: 30px 0px 0 780px;
+  height: 90px;
 }
 
 .info_p3 {
-  margin: 150px 0px 0 765px;
+  margin: 115px 0px 0 775px;
+  font-size: 30px;
 }
 
 .info_p_text3 {
-  margin: 190px 0 0 725px;
-  font-size: 28px;
-  line-height: 28px;
+  margin: 150px 0 0 765px;
+  font-size: 26px;
+  width: 20px;
+  line-height: 18px;
 }
 
 .request_title {
   margin-left: 150px;
+  margin-top: 20px;
 }
 
 .request_block {
@@ -1458,7 +1471,7 @@ p {
 }
 
 .reviews_title {
-  margin: 60px 0 0 -40px;
+  margin: 60px 0 0 0px;
 }
 .reviews_block {
   width: 90%;
@@ -1515,6 +1528,11 @@ p {
   margin-left: 150px;
 }
 
+.map_block {
+  /* width: 600px;
+  height: 360px; */
+  margin: 50px 70px 0 100px;
+}
 
 
 }

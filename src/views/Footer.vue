@@ -68,7 +68,7 @@ export default {
   height: 20px;
 }
 
-@media all and (min-width: 768px) and (max-width: 1023px)  {
+@media all and (min-width: 768px) and (max-width: 1024px)  {
 
 .footer_bar {
   width: 100%;
@@ -124,14 +124,23 @@ export default {
 .logo_footer {
   width: 90px;
   height: 130px;
-  margin: 20px 0 0 85px;
+  margin: 5px 0 0 15px;
+}
+
+.logo_img {
+  width: 60px;
+  height: 60px;
+}
+
+.logo_p {
+  font-size: 20px;
 }
 
 .footer_nav {
   display: flex;
   justify-content: space-around;
   width: 300px;
-  margin: 60px 0 0 280px;
+  margin: 40px 0 0 280px;
   
 }
 
