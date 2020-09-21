@@ -196,7 +196,7 @@
 
 .header_nav_a {
   font-size: 10px;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
 #a_main {
