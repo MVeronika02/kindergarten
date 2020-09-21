@@ -140,7 +140,7 @@ body {
     "header header header"
     "content content content"
     "footer footer footer";
-  grid-template-rows: 500px 3750px 100px;
+  grid-template-rows: 500px auto 100px;
   grid-template-columns: 15% 1fr 15%;
   grid-gap: 10px;
   margin: 0 auto;

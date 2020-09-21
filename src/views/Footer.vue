@@ -2,7 +2,7 @@
   <div class="footer_bar">
     <div class="logo_footer">
       <img src="../static/img/logo.png" class="logo_img" />
-      <p class="logo_p">KIDS</p>
+      <p class="logo_p_footer">KIDS</p>
     </div>
     <div class="footer_nav">
       <a href="#main" class="footer_nav_a">Главная</a>
@@ -52,7 +52,7 @@ export default {
   display: flex;
   justify-content: space-around;
   width: 300px;
-  margin: 60px 0 0 280px;
+  margin: 60px 0 0 270px;
   
 }
 
@@ -124,7 +124,7 @@ export default {
 .logo_footer {
   width: 90px;
   height: 130px;
-  margin: 5px 0 0 15px;
+  margin: 5px 0 0 55px;
 }
 
 .logo_img {
@@ -132,8 +132,9 @@ export default {
   height: 60px;
 }
 
-.logo_p {
+.logo_p_footer {
   font-size: 20px;
+  margin: -5px;
 }
 
 .footer_nav {
