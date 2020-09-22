@@ -49,7 +49,7 @@ body {
     "header header header"
     "content content content"
     "footer footer footer";
-  grid-template-rows: 590px 3750px 150px;
+  grid-template-rows: 590px auto 155px;
   grid-template-columns: 15% 1fr 15%;
   grid-gap: 10px;
   margin: 0 auto;
@@ -75,7 +75,7 @@ body {
 }
 
 
-@media all and (min-width: 768px) and (max-width: 1024px)  {
+@media all and (min-width: 768px) and (max-width: 1023px)  {
 
 .mainPage {
   width: 98%;
@@ -84,7 +84,7 @@ body {
     "header"
     "content"
     "footer";
-  grid-template-rows: 350px auto 80px;
+  grid-template-rows: 400px auto 80px;
   grid-template-columns: none;
   /* grid-gap: 10px; */
   margin: 0 auto 0 50px;
@@ -120,7 +120,7 @@ body {
     "header"
     "content"
     "footer";
-  grid-template-rows: 240px auto 80px;
+  grid-template-rows: 200px auto 80px;
   grid-template-columns: none;
   /* grid-gap: 10px; */
   margin: 0 auto 0 5px;

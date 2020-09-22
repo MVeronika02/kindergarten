@@ -68,7 +68,7 @@ export default {
   height: 20px;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px)  {
+@media all and (min-width: 768px) and (max-width: 1023px)  {
 
 .footer_bar {
   width: 100%;
@@ -81,6 +81,10 @@ export default {
   margin: 5px 0 0 20px;
 }
 
+.logo_p_footer {
+  margin:0;
+}
+
 .footer_nav {
   margin: 30px 0 0 150px;
 }
@@ -89,18 +93,22 @@ export default {
 @media all and (min-width: 360px) and (max-width: 767px) {
 
 .footer_bar {
-  width: 72%;
+  width: 97%;
   margin-left: 0px;
 }
 
 .logo_footer {
   width: 70px;
-  height: 100px;
+  height: 60px;
   margin: 10px 0 0 0px;
 }
 
+.logo_p_footer {
+  margin:0;
+}
+
 .footer_nav {
-  margin: 30px 0 0 10px;
+  margin: 30px 0 0 30px;
   width: 60%;
 }
 
@@ -123,8 +131,8 @@ export default {
 
 .logo_footer {
   width: 90px;
-  height: 130px;
-  margin: 5px 0 0 55px;
+  height: 100px;
+  margin: 5px 0 0 40px;
 }
 
 .logo_img {
@@ -134,7 +142,7 @@ export default {
 
 .logo_p_footer {
   font-size: 20px;
-  margin: -5px;
+  margin:0px;
 }
 
 .footer_nav {
