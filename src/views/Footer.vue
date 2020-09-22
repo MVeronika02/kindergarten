@@ -90,7 +90,7 @@ export default {
 }
 }
 
-@media all and (min-width: 360px) and (max-width: 767px) {
+/* @media all and (min-width: 360px) and (max-width: 767px) {
 
 .footer_bar {
   width: 97%;
@@ -164,6 +164,6 @@ export default {
 .footer_line {
   height: 20px;
 }
-}
+} */
 
 </style>

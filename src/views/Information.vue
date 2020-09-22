@@ -1,22 +1,9 @@
 <template>
   <div >
-    <div class="terms">
-      <div class="term">
-        <img src="../static/img/frame.svg" class="term_img"/>
-        <p class="term_p">Занимательные и увлекательные задания каждый день</p>
-      </div>
-      <div class="term">
-        <img src="../static/img/frame.svg" class="term_img"/>
-        <p class="term_p">Индивидуальный подход к каждому нашему ученику</p>
-      </div>
-      <div class="term">
-        <img src="../static/img/frame.svg" class="term_img"/>
-        <p class="term_right_p">Дружный коллектив помогает в адаптации и развитии</p>
-      </div>
-    </div>
 
-    <!-- <div> -->
-      <h1 class="courses_title">Мы будем изучать ...</h1>
+
+  
+      <!-- <h1 class="courses_title">Мы будем изучать ...</h1>
       <div class="courses">
         <div class="course">
           <img src="../static/img/eng.png" class="course_img" />
@@ -112,7 +99,6 @@
           </div>
         </div>
       </div>
-    <!-- </div> -->
 
     <div class="div_bottom"></div>
     
@@ -193,7 +179,7 @@
         <img src="../static/img/telegram.svg" class="contacts_img" />
         <img src="../static/img/facebook.svg" class="contacts_img" />
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -213,36 +199,6 @@ p {
   font-weight: 800;
   text-align: center;
   color: #000000;
-}
-
-.terms {
-  width: 98%;
-  display: flex;
-  margin: 10px 0 50px 35px;
-}
-
-.term {
-  width: 300px;
-  height: 294px;
-  margin: 0 30px;
-}
-
-.term_p {
-  position: absolute;
-  font-size: 18px;
-  line-height: 20px;
-  margin: -180px 0 0 65px;
-  width: 172px;
-  height: 80px;
-}
-
-.term_right_p {
-  width: 100px;
-  position: absolute;
-  font-size: 18px;
-  line-height: 20px;
-  margin: -200px 0 0 105px;
-  height: 100px;
 }
 
 .courses_title {
@@ -656,7 +612,7 @@ p {
   height: 40px;
 }
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
+/* @media all and (min-width: 768px) and (max-width: 1023px) {
 
 .terms {
   width: 80%;
@@ -1021,7 +977,7 @@ p {
   width: 90%;
   height: 120px;
   display: flex;
-  /* justify-content: center; */
+  /* justify-content: center; 
   margin: 0px 0 40px 0px;
 }
 
@@ -1589,12 +1545,12 @@ p {
 
 .map_block {
   /* width: 600px;
-  height: 360px; */
+  height: 360px; 
   margin: 50px 70px 0 100px;
 }
 
 
-}
+} */
 
 </style>
 

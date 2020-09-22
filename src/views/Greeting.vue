@@ -1,115 +1,62 @@
 <template>
-  <div id="main" class="nav_wrapper">
-    <div class="logo">
-      <img src="../static/img/logo.png" class="logo_img" />
-      <p class="logo_p">KIDS</p>
+  <div class="greeting_wrapper">
+    <div class="header_info_wrapper">
+      <p class="header_info_title">Детский садик "Kids"</p>
+      <p
+        class="header_info_p"
+      >Мы очень рады, что Вы заглянули к нам в гости и сделаем все, чтобы наше знакомство было обоюдно приятным.</p>
     </div>
-    <div class="header_nav">
-      <a id="a_main" class="header_nav_a">Главная</a>
-      <a href="#about" class="header_nav_a">О проекте</a>
-      <a href="#contacts" class="header_nav_a">Контакты</a>
-      <button class="header_nav_btn">Заказать звонок</button>
-      <a class="header_nav_a">+77477011414</a>
+    <div class="container_header_info_img">
+      <img src="../static/img/header_img.svg" class="header_info_img" />
     </div>
   </div>
 </template>
 
 <style>
-.nav_wrapper {
-  grid-area: header;
+.greeting_wrapper {
+  grid-area: greeting;
   position: relative;
-  display: flex;
-  justify-content: space-between;
+  display: inline;
 }
 
-.logo {
-  width: 80px;
-  margin: 0px 0px 0 85px;
+.header_info_wrapper {
+  margin: 37px 0 0 90px;
 }
 
-.logo_img {
-  margin-left: 0px;
-}
-
-.logo_p {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 29px;
-  margin-top: -10px;
-  margin-left: 10px;
-  width: 62px;
-  color: black;
-}
-
-.header_nav {
-  margin-top: 11px;
+.header_info_title {
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  padding-right: 20px;
-  width: 550px;
-}
-
-.header_nav > a{
-  padding-top: 15px
-}
-
-.header_nav_a {
-  color: black;
   font-family: Montserrat;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.header_nav_btn {
-  width: 164px;
-  height: 47px;
-  background: linear-gradient(
-    107.78deg,
-    rgba(90, 114, 241, 0) -7.03%,
-    #5a72f1 32.98%
-  );
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 9px;
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 59px;
   color: #000000;
+  display: inline-block;
 }
 
+.header_info_p {
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  width: 30%;
+  height: 66px;
+  margin-top: 33px;
+  text-align: left;
+}
+
+.container_header_info_img {
+  position: relative;
+  margin-top: -100px;
+  margin-left: 60px;
+}
+.header_info_img {
+  max-width: 100%;
+  max-height: 100%;
+}
 /* 
 @media screen and (max-width: 1023px) {
-  .logo {
-    margin: 0px 10px;
-  }
-
-  .logo_img {
-    width: 50px;
-    height: 50px;
-  }
-
-  .logo_p {
-    font-size: 18px;
-    margin-top: -10px;
-  }
-
-  .header_nav {
-    margin-left: 80px;
-    width: 60%;
-  }
-
-  .header_nav_btn {
-    width: 120px;
-    height: 30px;
-    font-size: 14px;
-    line-height: 20px;
-  }
 
   .header_info {
     width: 80%;
