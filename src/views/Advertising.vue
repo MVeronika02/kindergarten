@@ -21,7 +21,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  height: 400px;
+  height: 340px;
   margin-left: 60px;
   margin-right: 105px;
   margin-top: 50px;
@@ -39,7 +39,7 @@
   line-height: 20px;
   width: 172px;
   height: 80px;
-  top: 39%;
+  top: 44%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

@@ -3,9 +3,9 @@
   <div class="mainPage">
     <Header />
     <Greeting />
-    <Information />
     <Advertising/>
-
+    <Courses/>
+    <Information />
     <Footer class="pageFooter" />
   </div>
 </body>
@@ -13,10 +13,11 @@
 
 <script>
 import Header from "../views/Header.vue";
-import Information from "../views/Information.vue";
 import Footer from "../views/Footer.vue";
 import Greeting from "../views/Greeting.vue";
 import Advertising from "../views/Advertising.vue";
+import Courses from "../views/Courses.vue";
+import Information from "../views/Information.vue"
 
 export default {
   name: "Home",
@@ -27,6 +28,7 @@ export default {
     Header,
     Greeting,
     Advertising,
+    Courses,
     Information,
     Footer,
   },
@@ -45,9 +47,10 @@ body {
     "header header header"
     "greeting greeting greeting"
     "adver adver adver"
-    "content content content"
+    "courses courses courses"
+    "info info info"
     "footer footer footer";
-  grid-template-rows: auto auto auto auto 155px;
+  grid-template-rows: auto auto auto auto auto 155px;
   grid-template-columns: 15% 1fr 15%;
   z-index: 5;
   position: relative;

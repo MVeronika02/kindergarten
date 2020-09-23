@@ -55,6 +55,28 @@
   max-width: 100%;
   max-height: 100%;
 }
+
+@media screen and (max-width: 991px) {
+
+.header_info_wrapper {
+  margin: 10px 0 0 90px;
+}
+
+.header_info_title {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.header_info_p {
+  width: 35%;
+  height: 50px;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 15px;
+}
+}
+
+
 /* 
 @media screen and (max-width: 1023px) {
 
