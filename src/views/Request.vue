@@ -36,11 +36,9 @@
   grid-area: request;
   margin-top: 50px;
   margin-right: 190px;
-  /* margin-left: 200px; */
   height: 480px;
   position: relative;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 .request_title {
@@ -49,15 +47,16 @@
   font-size: 36px;
   line-height: 44px;
   color: #000000;
-  width: 900px;
-  margin-left: 40px;
+  width: 80%;
+  height: 10%;
+  margin-left: 240px;
 }
 
 .request_form {
-  position: relative;
+  position: absolute;
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 42%;
   margin-top: 60px;
   margin-left: 20%;
 }
@@ -77,7 +76,7 @@
 .request_submit_btn {
   position: relative;
   width: 62%;
-  height: 50%;
+  height: 60px;
   background: #006dd1;
   border-radius: 20px;
   border: none;
@@ -90,6 +89,7 @@
 
 .request_img_wrapper {
   position: relative;
+  width: 72%;
   margin-left: 45px;
 }
 
