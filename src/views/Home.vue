@@ -6,6 +6,7 @@
     <Advertising/>
     <Courses/>
     <Information />
+    <Request/>
     <Footer class="pageFooter" />
   </div>
 </body>
@@ -18,6 +19,7 @@ import Greeting from "../views/Greeting.vue";
 import Advertising from "../views/Advertising.vue";
 import Courses from "../views/Courses.vue";
 import Information from "../views/Information.vue"
+import Request from "../views/Request.vue"
 
 export default {
   name: "Home",
@@ -30,6 +32,7 @@ export default {
     Advertising,
     Courses,
     Information,
+    Request,
     Footer,
   },
 };
@@ -49,8 +52,9 @@ body {
     "adver adver adver"
     "courses courses courses"
     "info info info"
+    "request request request"
     "footer footer footer";
-  grid-template-rows: auto auto auto auto auto 155px;
+  grid-template-rows: auto auto auto auto auto auto 155px;
   grid-template-columns: 15% 1fr 15%;
   z-index: 5;
   position: relative;

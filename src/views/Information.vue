@@ -29,6 +29,8 @@
 
 .one_info_block {
   position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .info_dial {
@@ -39,64 +41,17 @@
 
  .info_img {
   position: absolute;
-  margin: 45px 0px 0 -200px;
+  margin: 32% 0 0 50%;
+  transform: translate(-50%, -50%);
 }
 
 .info_text {
   position: absolute;
-  margin: -55% 0 0 20%;
+  margin:  62% 0 0 50%;
   width: 200px;
   font-size: 36px;
-  line-height: 36px;
-}
-/*
-.info_p_text {
-  position: absolute;
-  margin: 190px 0 0 74px;
-  width: 180px;
-  font-size: 28px;
-  line-height: 34px;
+  line-height: 32px;
+  transform: translate(-50%, -50%);
 }
 
-.info_img_cicle2 {
-  position: absolute;
-  margin: 50px 0px 0 450px;
-}
-
-.info_p2 {
-  position: absolute;
-  margin: 150px 0px 0 455px;
-  width: 90px;
-  font-size: 36px;
-  line-height: 44px;
-}
-
-.info_p_text2 {
-  position: absolute;
-  margin: 190px 0 0 415px;
-  width: 180px;
-  font-size: 28px;
-  line-height: 34px;
-}
-
-.info_img_cicle3 {
-  position: absolute;
-  margin: 50px 0px 0 800px;
-}
-
-.info_p3 {
-  position: absolute;
-  margin: 150px 0px 0 800px;
-  width: 90px;
-  font-size: 36px;
-  line-height: 44px;
-}
-
-.info_p_text3 {
-  position: absolute;
-  margin: 190px 0 0 760px;
-  width: 180px;
-  font-size: 28px;
-  line-height: 30px;
-} */
 </style>
