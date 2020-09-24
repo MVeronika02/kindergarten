@@ -54,4 +54,12 @@
   transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 991px) {
+  .info_text {
+    margin-top: 65%;
+    font-size: 30px;
+  line-height: 28px;
+  }
+}
+
 </style>

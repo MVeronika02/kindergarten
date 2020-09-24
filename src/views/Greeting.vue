@@ -74,6 +74,17 @@
   line-height: 18px;
   margin-top: 15px;
 }
+
+.container_header_info_img {
+  margin-top: -80px;
+  margin-left: 60px;
+}
+
+/* .header_info_img {
+  max-width: 95%;
+  max-height: 90%;
+} */
+
 }
 
 

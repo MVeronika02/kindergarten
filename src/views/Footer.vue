@@ -40,6 +40,7 @@ export default {
 <style>
 .footer_bar {
   display: flex;
+  position: relative;
 }
 
 .logo_footer {
@@ -50,8 +51,8 @@ export default {
 
 .footer_nav {
   display: flex;
-  justify-content: space-around;
-  width: 300px;
+  justify-content: space-between;
+  width: 30%;
   margin: 60px 0 0 270px;
   
 }
@@ -67,103 +68,5 @@ export default {
 .footer_line {
   height: 20px;
 }
-
-@media all and (min-width: 768px) and (max-width: 1023px)  {
-
-.footer_bar {
-  width: 100%;
-  margin-left: 0px;
-}
-
-.logo_footer {
-  width: 70px;
-  height: 100px;
-  margin: 5px 0 0 20px;
-}
-
-.logo_p_footer {
-  margin:0;
-}
-
-.footer_nav {
-  margin: 30px 0 0 150px;
-}
-}
-
-/* @media all and (min-width: 360px) and (max-width: 767px) {
-
-.footer_bar {
-  width: 97%;
-  margin-left: 0px;
-}
-
-.logo_footer {
-  width: 70px;
-  height: 60px;
-  margin: 10px 0 0 0px;
-}
-
-.logo_p_footer {
-  margin:0;
-}
-
-.footer_nav {
-  margin: 30px 0 0 30px;
-  width: 60%;
-}
-
-.footer_nav_a {
-  font-size: 14px;
-  line-height: 14px;
-}
-
-.footer_line {
-  height: 14px;
-}
-
-}
-
-@media all and (min-width: 1024px) and (max-width: 1474px) {
-
-.footer_bar {
-  display: flex;
-}
-
-.logo_footer {
-  width: 90px;
-  height: 100px;
-  margin: 5px 0 0 40px;
-}
-
-.logo_img {
-  width: 60px;
-  height: 60px;
-}
-
-.logo_p_footer {
-  font-size: 20px;
-  margin:0px;
-}
-
-.footer_nav {
-  display: flex;
-  justify-content: space-around;
-  width: 300px;
-  margin: 40px 0 0 280px;
-  
-}
-
-.footer_nav_a {
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
-  color: #000000;
-}
-
-.footer_line {
-  height: 20px;
-}
-} */
 
 </style>

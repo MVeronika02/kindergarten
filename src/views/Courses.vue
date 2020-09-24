@@ -265,5 +265,11 @@ p {
   height: 150px;
   margin: -75px 20px 0 20px;
 }
+
+@media screen and (max-width: 991px) {
+  .courses {
+  justify-content: space-around;
+}
+}
 </style>
 
