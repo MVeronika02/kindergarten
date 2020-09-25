@@ -278,7 +278,7 @@ p {
     }
 
     .div_flowers {
-      margin-top: -65px;
+      margin: -65px 0 0 0;
     }
   }
 }

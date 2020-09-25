@@ -69,4 +69,16 @@
     justify-content: center;
   }
 }
+
+@media screen and (min-width: 360px) and (max-width: 500px) {
+  .terms {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .term_p {
+    top: 50%;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
 </style>

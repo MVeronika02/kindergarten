@@ -47,6 +47,11 @@ export default {
   height: 365px;
 }
 
+.ymaps-2-1-77-map {
+  width: 50%;
+  height: 80%;
+}
+
 .contacts {
   position: relative;
   margin-left: 30px;
@@ -173,6 +178,47 @@ export default {
 
   .img_social_network {
     margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 500px) {
+  .contacts_container {
+    margin: 40px 0 0 20px;
+  }
+  .map_block {
+    width: 90%;
+    height: 40% !important;
+  }
+  .ymaps-2-1-77-map {
+    width: 80%;
+    height: 200px !important;
+  }
+
+  .contacts {
+    width: 90%;
+  }
+
+  .addres_img {
+    margin-top: 10px;
+    height: 40px;
+  }
+
+  .tel_img {
+    margin-top: 10px;
+    height: 40px;
+  }
+  .contacts_text {
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .contacts_img {
+    width: 10%;
+  }
+  .wp_img {
+    width: 10%;
   }
 }
 </style>

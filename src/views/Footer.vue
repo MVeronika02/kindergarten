@@ -81,4 +81,20 @@ $(document).ready(function () {
     line-height: 16px;
   }
 }
+
+@media screen and (min-width: 360px) {
+  .logo_footer {
+    margin: 30px 15px 0 10px;
+  }
+
+  .logo_img {
+    width: 95%;
+    height: 65%;
+  }
+
+  .footer_nav {
+    width: 80%;
+    margin-right: 30px;
+  }
+}
 </style>

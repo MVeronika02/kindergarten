@@ -73,6 +73,8 @@
 
 @media screen and (max-width: 767px) {
   .info_container {
+    margin-left: 0;
+    margin-right: 0;
     justify-content: center;
   }
 
@@ -81,16 +83,4 @@
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 766px) {
-  .info_img {
-    margin-top:34%;
-    max-width: 40%;
-    max-height: 40%;
-  }
-  .info_text {
-    margin-top: 64%;
-    font-size: 14px;
-    line-height: 14px;
-  }
-}
 </style>

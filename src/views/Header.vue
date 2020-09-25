@@ -89,4 +89,15 @@
   }
 }
 
+@media screen and (min-width: 360px) {
+  .logo {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+
+  .logo_p {
+    margin-top: -5px;
+  }
+}
+
 </style>

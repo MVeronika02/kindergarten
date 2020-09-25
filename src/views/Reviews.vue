@@ -47,7 +47,6 @@
   font-size: 36px;
   line-height: 44px;
   color: #000000;
-  /* width: 900px; */
   margin-left: 160px;
 }
 
@@ -60,7 +59,7 @@
 .review {
   position: relative;
   width: 37%;
-  height: 440px;
+  height: 450px;
   background: #27cb37;
   box-shadow: 0px 4px 16px 7px rgba(0, 0, 0, 0.25);
   border-radius: 31px;
@@ -125,18 +124,20 @@
   }
 
   .review_text {
-    margin-top: 32%;
+    font-size: 18px;
+    margin-top: 25%;
+    height: 250px;
   }
 
   .review_img {
-    margin: -25% 0 0 -20%;
+    margin: -20% 0 0 -15%;
   }
 }
 
 @media screen and (max-width: 850px) {
   .review {
     width: 80%;
-    height: 350px;
+    height: 370px;
   }
 }
 

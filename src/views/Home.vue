@@ -62,7 +62,7 @@ body {
     "reviews reviews reviews"
     "contacts contacts contacts"
     "footer footer footer";
-  grid-template-rows: auto auto auto auto auto auto auto auto 155px;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
   grid-template-columns: 15% 1fr 15%;
   z-index: 5;
   position: relative;
