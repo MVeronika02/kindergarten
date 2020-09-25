@@ -11,8 +11,44 @@
       <button class="header_nav_btn">Заказать звонок</button>
       <a class="header_nav_a">+77477011414</a>
     </div>
+    <div class="menu_header_nav">
+      <div class="container" id="load" @click="myFunction()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    
+    <div class="menu_container">
+      <ul id="menu" class="menu">
+        <li><a id="a_main" class="menu_header_nav_a">Главная</a></li>
+        <li><a href="#about" class="menu_header_nav_a">О проекте</a></li>
+        <li><a href="#contacts" class="menu_header_nav_a">Контакты</a></li>
+        <li><a class="menu_header_nav_a">+77477011414</a></li>
+      </ul>
+    </div>
+    </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Header",
+  data() {},
+  methods: {
+    myFunction() {
+      var preloader = document.getElementById("load");
+      if (!preloader.classList.contains("change")) {
+        preloader.classList.add("change");
+        document.getElementById("menu").style.display = "block";
+      } else {
+        preloader.classList.remove("change");
+        document.getElementById("menu").style.display = "none";
+      }
+    },
+  },
+};
+</script>
+
 
 <style>
 .nav_wrapper {
@@ -52,8 +88,8 @@
   width: 550px;
 }
 
-.header_nav > a{
-  padding-top: 15px
+.header_nav > a {
+  padding-top: 15px;
 }
 
 .header_nav_a {
@@ -83,13 +119,23 @@
   color: #000000;
 }
 
+.menu_header_nav {
+  display: none;
+}
+
+.container {display: none;}
+
+.menu {
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
   .header_nav {
     display: none;
   }
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 500px) {
   .logo {
     margin-left: 15px;
     margin-top: 10px;
@@ -98,6 +144,61 @@
   .logo_p {
     margin-top: -5px;
   }
-}
 
+  #menu {
+    display: none;
+    background-color: #ecc516;
+    opacity: 0.65;
+    width: 30vw;
+    margin-left: 10px;
+  }
+
+  ul {
+    align-items: center;
+  }
+
+  ul > li > a {
+    font-size: 10px;
+    margin-left: 10px;
+    color: black;
+  }
+
+  .menu_header_nav {
+    display: inline;
+    position: relative;
+    width: 40%;
+    margin: 20px 50px 0 0px;
+  }
+
+  .container {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 0 0 120px;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+}
 </style>

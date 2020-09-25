@@ -83,4 +83,10 @@
   }
 }
 
+@media screen and (min-width: 360px){
+  .info_text {
+    margin-top: 60%;
+  }
+}
+
 </style>
