@@ -38,11 +38,12 @@ export default {
   margin: 50px 75px 50px 90px;
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .map_block {
-  width: 600px;
+  width: 50%;
   height: 365px;
 }
 
@@ -57,7 +58,7 @@ export default {
 
 .contacts_title {
   position: relative;
-  width: 450px;
+  width: 90%;
   height: 30px;
   font-family: Montserrat;
   font-weight: 800;
@@ -110,6 +111,69 @@ export default {
   height: 40px;
 }
 
+@media screen and (max-width: 991px) {
+  .map_block {
+    width: 80%;
+  }
+  .contacts {
+    width: 60%;
+    margin-left: 0;
+    margin-top: 15px;
+  }
 
+  .contacts_title {
+    width: 350px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .addres_img {
+    margin-top: 10px;
+    height: 50px;
+  }
+
+  .tel_img {
+    margin-top: 10px;
+    height: 50px;
+  }
+
+  .contacts_text {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .img_social_network {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .map_block {
+    width: 98%;
+    margin-bottom: 10px;
+  }
+
+  .contacts {
+    width: 80%;
+  }
+
+  .addres_img {
+    margin-top: 10px;
+    height: 50px;
+  }
+
+  .tel_img {
+    margin-top: 10px;
+    height: 50px;
+  }
+  .contacts_text {
+    margin-top: 25px;
+    font-size: 24px;
+    line-height: 22px;
+  }
+
+  .img_social_network {
+    margin-top: 30px;
+  }
+}
 </style>
 

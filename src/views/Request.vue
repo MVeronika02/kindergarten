@@ -100,9 +100,27 @@
   max-height: 120%;
 }
 
+@media screen and (max-width: 991px) {
+  .request_container {
+    margin-left: 10%;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .request_img_wrapper{
     display: none;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .request_container {
+    margin-left: 22%;
+  }
+
+  .request_title {
+    margin-bottom: 40px;
+    margin-left: 60px;
+  }
+}
+
 </style>

@@ -22,8 +22,9 @@
   grid-area: adver;
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  height: 340px;
+  /* height: 340px; */
   margin-left: 60px;
   margin-right: 105px;
   margin-top: 50px;
@@ -40,8 +41,8 @@
   line-height: 20px;
   width: 172px;
   height: 80px;
-  top: 42%;
-  left: 50%;
+  top: 48%;
+  left: 52%;
   transform: translate(-50%, -50%);
 }
 
@@ -54,9 +55,18 @@
   .terms {
     margin-left: 80px;
     margin-right: 95px;
+    justify-content: center;
   }
   .term_p {
-    top: 42%;
+    font-size: 16px;
+    line-height: 16px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .terms {
+    justify-content: center;
   }
 }
 </style>

@@ -84,7 +84,7 @@
   width: 70%;
   height: 70px;
   margin-top: 10px;
-  margin-left: 130px;
+  margin-left: 120px;
   font-family: Montserrat;
   font-weight: 800;
   font-size: 24px;
@@ -108,12 +108,54 @@
 }
 
 @media screen and (max-width: 991px) {
+
+  .reviews_title {
+    margin-left: 100px;
+  }
+
+  .review {
+    width: 40%;
+    height: 500px;
+    margin-left: 40px;
+  }
+
   .review_name {
-    margin-left:80px;
+    font-size: 20px;
+  line-height: 22px;
+    width: 60%;
+    margin-left:85px;
   }
 
   .review_text {
-    margin-top: 80px;
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .review {
+    width: 80%;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .reviews_title {
+    margin-left: 60px;
+  }
+
+
+  .review {
+    margin-left: 40px;
+  }
+
+  .review_name {
+    margin-left:110px;
+  }
+
+  .review_text {
+    margin-top: 110px;
+    font-size: 16px;
+  line-height: 18px;
   }
 }
 

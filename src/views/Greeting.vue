@@ -80,10 +80,28 @@
   margin-left: 60px;
 }
 
-/* .header_info_img {
-  max-width: 95%;
-  max-height: 90%;
-} */
+}
+
+@media screen and (max-width: 767px) {
+  .header_info_wrapper {
+  margin: 25px 0 0 20px;
+}
+
+.header_info_title {
+  font-size: 44px;
+}
+
+.header_info_p {
+  font-size: 16px;
+  line-height: 20px;
+  width: 60%;
+  margin-top: 25px;
+}
+
+.container_header_info_img {
+  margin-top: -20px;
+  margin-left: 10px;
+}
 
 }
 

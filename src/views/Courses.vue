@@ -112,10 +112,11 @@ p {
   font-weight: 800;
   text-align: center;
   color: #000000;
-} 
+}
 
 .courses_container {
   grid-area: courses;
+  margin-top: 50px;
 }
 
 .courses_title {
@@ -268,8 +269,18 @@ p {
 
 @media screen and (max-width: 991px) {
   .courses {
-  justify-content: space-around;
-}
+    justify-content: space-around;
+  }
+
+  @media screen {
+    .course {
+      margin-bottom: 90px;
+    }
+
+    .div_flowers {
+      margin-top: -65px;
+    }
+  }
 }
 </style>
 
