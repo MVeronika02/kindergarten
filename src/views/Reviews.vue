@@ -146,9 +146,9 @@
     margin-left: 20%;
   }
 
-
   .review {
     margin-left: 40px;
+    height: 450px;
   }
 
   .review_img {
@@ -158,11 +158,11 @@
   }
 
   .review_name {
-    margin-left: 25%;
+    margin-left: 35%;
   }
 
   .review_text {
-    margin-top: 110px;
+    margin-top: 35%;
     font-size: 18px;
   line-height: 22px;
   }
@@ -180,6 +180,7 @@
 
   .review {
     margin: 20% 0 0 10%;
+    height: 370px;
   }
 
   .review_img {
