@@ -70,10 +70,6 @@ body {
   margin: 0px 50px 0px 50px;
 }
 
-.pageFooter {
-  grid-area: footer;
-  background: #e7d747;
-}
 
 @media screen and (max-width: 1200px) {
   .mainPage {

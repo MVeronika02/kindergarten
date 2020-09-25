@@ -47,11 +47,11 @@
   font-size: 36px;
   line-height: 44px;
   color: #000000;
-  width: 900px;
+  /* width: 900px; */
   margin-left: 160px;
 }
 
-.review_info_box{
+.review_info_box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -65,16 +65,16 @@
   box-shadow: 0px 4px 16px 7px rgba(0, 0, 0, 0.25);
   border-radius: 31px;
   margin-top: 140px;
-  margin-left: 77px;
+  margin-left: 5%;
 }
 
-.review_info_box > :last-child{
+.review_info_box > :last-child {
   background: #cb2776;
 }
 
 .review_img {
   position: absolute;
-  margin: -100px 0 0 -60px;
+  margin: -20% 0 0 -15%;
   max-width: 58%;
   max-height: 58%;
 }
@@ -84,7 +84,7 @@
   width: 70%;
   height: 70px;
   margin-top: 10px;
-  margin-left: 120px;
+  margin-left: 30%;
   font-family: Montserrat;
   font-weight: 800;
   font-size: 24px;
@@ -98,7 +98,7 @@
   width: 85%;
   height: 330px;
   margin-top: 120px;
-  margin-left: 30px;
+  margin-left: 7%;
   font-family: Montserrat;
   font-weight: 800;
   font-size: 18px;
@@ -108,26 +108,28 @@
 }
 
 @media screen and (max-width: 991px) {
-
   .reviews_title {
-    margin-left: 100px;
+    margin-left: 20%;
   }
 
   .review {
     width: 40%;
     height: 500px;
-    margin-left: 40px;
+    margin-left: 8%;
   }
 
   .review_name {
     font-size: 20px;
-  line-height: 22px;
+    line-height: 22px;
     width: 60%;
-    margin-left:85px;
   }
 
   .review_text {
-    margin-top: 90px;
+    margin-top: 32%;
+  }
+
+  .review_img {
+    margin: -25% 0 0 -20%;
   }
 }
 
@@ -140,7 +142,7 @@
 
 @media screen and (max-width: 767px) {
   .reviews_title {
-    margin-left: 60px;
+    margin-left: 20%;
   }
 
 
@@ -148,16 +150,54 @@
     margin-left: 40px;
   }
 
+  .review_img {
+    margin: -15% 0 0 -8%;
+    max-width: 50%;
+    max-height: 50%;
+  }
+
   .review_name {
-    margin-left:110px;
+    margin-left: 25%;
   }
 
   .review_text {
     margin-top: 110px;
-    font-size: 16px;
-  line-height: 18px;
+    font-size: 18px;
+  line-height: 22px;
   }
 }
 
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .reviews_container {
+    margin: 40px 0 0 0;
+  }
+  .reviews_title {
+    margin-left: 8%;
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .review {
+    margin: 20% 0 0 10%;
+  }
+
+  .review_img {
+    margin: -17% 0 0 -8%;
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  .review_name {
+    margin-left: 38%;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .review_text {
+    margin-top: 34%;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
 </style>
 

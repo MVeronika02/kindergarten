@@ -23,7 +23,6 @@
   grid-area: info;
   position: relative;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   margin: 50px 90px 0px 90px;
 }
@@ -63,6 +62,7 @@
   }
 
   .info_container {
+    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -78,6 +78,19 @@
 
   .one_info_block {
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 766px) {
+  .info_img {
+    margin-top:34%;
+    max-width: 40%;
+    max-height: 40%;
+  }
+  .info_text {
+    margin-top: 64%;
+    font-size: 14px;
+    line-height: 14px;
   }
 }
 </style>

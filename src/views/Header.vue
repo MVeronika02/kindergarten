@@ -83,4 +83,10 @@
   color: #000000;
 }
 
+@media screen and (max-width: 767px) {
+  .header_nav {
+    display: none;
+  }
+}
+
 </style>

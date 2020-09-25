@@ -1,6 +1,6 @@
 <template>
   <div class="request_container">
-    <div>
+    <div class="form_container">
       <h1 class="request_title">Оставить заявку</h1>
       <form class="request_form">
         <input
@@ -43,7 +43,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 
 .request_title {
   font-family: Montserrat;
@@ -90,7 +89,7 @@
 
 .request_img_wrapper {
   position: relative;
-  margin: 20px 0 0 6%; 
+  margin: 20px 0 0 6%;
 }
 
 .request_img {
@@ -102,25 +101,42 @@
 
 @media screen and (max-width: 991px) {
   .request_container {
-    margin-left: 10%;
+    margin-left: 20%;
   }
 }
 
 @media screen and (max-width: 850px) {
-  .request_img_wrapper{
+  .request_img_wrapper {
     display: none;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 360px) and (max-width: 767px) {
   .request_container {
-    margin-left: 22%;
+    margin: 0;
+  }
+
+  .form_container {
+    width: 90%;
+    margin-left: 8%;
   }
 
   .request_title {
-    margin-bottom: 40px;
-    margin-left: 60px;
+    font-size: 26px;
+    line-height: 28px;
+    width: 80%;
+    margin: 20px 0 20px 50px;
+  }
+
+  .request_form_input {
+    width: 300px;
+    height: 20px;
+    font-size: 14px;
+    padding: 20px 0px 19px 11px;
+  }
+
+  .request_submit_btn {
+    margin-left: 50px;
   }
 }
-
 </style>
