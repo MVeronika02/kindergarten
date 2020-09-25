@@ -5,21 +5,25 @@
       <p class="logo_p">KIDS</p>
     </div>
     <div class="header_nav">
-      <a id="a_main" class="header_nav_a">Главная</a>
+      <a id="main" class="header_nav_a">Главная</a>
       <a href="#about" class="header_nav_a">О проекте</a>
       <a href="#contacts" class="header_nav_a">Контакты</a>
-      <button class="header_nav_btn">Заказать звонок</button>
+      <button class="header_nav_btn">
+        <a href="#request">Заказать звонок</a>
+      </button>
       <a class="header_nav_a">+77477011414</a>
     </div>
     <div class="menu_header_nav">
       <div class="header_btn_and_number">
-        <button class="menu_header_nav_btn">Заказать звонок</button>
+        <button class="menu_header_nav_btn">
+          <a href="#request">Заказать звонок</a>
+        </button>
         <a class="menu_header_nav_a">+77477011414</a>
       </div>
 
       <div class="menu_container">
         <ul id="menu" class="menu">
-          <li><a id="a_main" class="menu_header_nav_a">Главная</a></li>
+          <li><a id="main" class="menu_header_nav_a">Главная</a></li>
           <li><a href="#about" class="menu_header_nav_a">О проекте</a></li>
           <li><a href="#contacts" class="menu_header_nav_a">Контакты</a></li>
         </ul>
@@ -35,6 +39,7 @@
 </template>
 
 <script>
+import $ from "jquery";
 export default {
   name: "Header",
   data() {},
@@ -51,6 +56,19 @@ export default {
     },
   },
 };
+  $(document).ready(function () {
+    $("#menu").on("click", "a", function (event) {
+      //отменяем стандартную обработку нажатия по ссылке
+      event.preventDefault();
+      //забираем идентификатор бока с атрибута href
+      var id = $(this).attr("href"),
+      //узнаем высоту от начала страницы до блока на который ссылается якорь
+      top = $(id).offset().top;
+      //анимируем переход на расстояние - top за 1500 мс
+      $("body,html").animate({ scrollTop: top }, 200);
+    });
+  })
+
 </script>
 
 

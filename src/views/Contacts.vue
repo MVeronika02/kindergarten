@@ -1,7 +1,7 @@
 <template>
-  <div class="contacts_container">
+  <div id="contacts" class="contacts_container">
     <div id="map" class="map_block"></div>
-    <div id="contacts" class="contacts">
+    <div class="contacts">
       <h1 class="contacts_title">Контактные данные</h1>
       <div class="block_adress_and_email">
         <img src="../static/img/geo.svg" class="addres_img" />

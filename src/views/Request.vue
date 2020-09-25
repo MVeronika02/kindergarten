@@ -1,5 +1,5 @@
 <template>
-  <div class="request_container">
+  <div id="request" class="request_container">
     <div class="form_container">
       <h1 class="request_title">Оставить заявку</h1>
       <form class="request_form">
