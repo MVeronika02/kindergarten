@@ -282,5 +282,11 @@ p {
     }
   }
 }
+
+@media screen and (max-width: 325px){
+  .courses_title {
+    font-size: 28px;
+  }
+}
 </style>
 

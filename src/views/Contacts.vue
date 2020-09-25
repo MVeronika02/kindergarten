@@ -221,5 +221,46 @@ export default {
     width: 10%;
   }
 }
+
+@media screen and (max-width: 325px){
+  .contacts_container {
+    margin: 40px 0 0 20px;
+  }
+  .map_block {
+    width: 90%;
+    height: 40% !important;
+  }
+  .ymaps-2-1-77-map {
+    width: 100%;
+    height: 200px !important;
+  }
+
+  .contacts {
+    width: 95%;
+  }
+
+  .addres_img {
+    margin-top: 10px;
+    height: 40px;
+  }
+
+  .tel_img {
+    margin-top: 10px;
+    height: 40px;
+  }
+  .contacts_text {
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .contacts_img {
+    width: 10%;
+  }
+  .wp_img {
+    width: 10%;
+  }
+}
 </style>
 

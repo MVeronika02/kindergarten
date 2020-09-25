@@ -82,9 +82,25 @@ $(document).ready(function () {
   }
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 500px){
   .logo_footer {
     margin: 30px 15px 0 10px;
+  }
+
+  .logo_img {
+    width: 95%;
+    height: 65%;
+  }
+
+  .footer_nav {
+    width: 80%;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 325px){
+  .logo_footer {
+    margin: 30px 15px 0 5px;
   }
 
   .logo_img {

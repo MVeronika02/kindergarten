@@ -22,7 +22,7 @@
   grid-area: adver;
   position: relative;
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: space-between;
   /* height: 340px; */
   margin-left: 60px;
@@ -55,6 +55,7 @@
   .terms {
     margin-left: 80px;
     margin-right: 95px;
+    flex-wrap: wrap;
     justify-content: center;
   }
   .term_p {
@@ -79,6 +80,16 @@
     top: 50%;
     font-size: 18px;
     line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 325px){
+  .terms {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .term_p {
+    top: 54%;
   }
 }
 </style>

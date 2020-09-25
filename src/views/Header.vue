@@ -129,6 +129,12 @@ export default {
   display: none;
 }
 
+@media screen and (max-width: 991px){
+  .logo {
+    margin-left: 20px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header_nav {
     display: none;
@@ -153,8 +159,67 @@ export default {
     margin-left: 10px;
   }
 
-  ul {
-    align-items: center;
+  ul > li > a {
+    font-size: 10px;
+    margin-left: 10px;
+    color: black;
+  }
+
+  .menu_header_nav {
+    display: inline;
+    position: relative;
+    width: 40%;
+    margin: 20px 50px 0 0px;
+  }
+
+  .container {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 0 0 120px;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+}
+
+@media screen and (max-width: 325px){
+  .logo {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+
+  .logo_p {
+    margin-top: -5px;
+  }
+
+  #menu {
+    display: none;
+    background-color: #ecc516;
+    opacity: 0.65;
+    width: 30vw;
+    margin-left: 10px;
   }
 
   ul > li > a {

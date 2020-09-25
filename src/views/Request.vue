@@ -139,4 +139,33 @@
     margin-left: 50px;
   }
 }
+
+@media screen and (max-width: 325px) {
+  .request_container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .form_container {
+    width: 95%;
+    margin-left: 15px;
+  }
+
+  .request_title {
+    font-size: 28px;
+    line-height: 20px;
+    width: 80%;
+    margin: 20px 0 20px 30px;
+  }
+
+  .request_form_input {
+    width: 270px;
+    height: 20px;
+    font-size: 14px;
+    padding: 20px 0px 19px 11px;
+  }
+
+  .request_submit_btn {
+    margin-left: 40px;
+  }
+}
 </style>

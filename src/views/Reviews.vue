@@ -200,5 +200,34 @@
     line-height: 18px;
   }
 }
+
+@media screen and (max-width: 325px){
+  .reviews_container {
+    margin: 60px 0 0 0;
+  }
+
+  .reviews_title {
+    margin-left: 5%;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .review {
+    margin: 15% 0 0 10%;
+    height: 320px;
+  }
+
+  .review_name {
+    margin-left: 40%;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .review_text {
+    margin-top: 34%;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
 </style>
 
